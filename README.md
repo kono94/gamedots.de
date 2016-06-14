@@ -5,3 +5,4 @@ Website of an online community including:
 - tracking of steam inventory values
 - news feed
 - working contact form
+- responsiv and mobile ready design
