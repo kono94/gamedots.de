@@ -1,0 +1,50 @@
+smq-popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2000;
+  display: block;
+}
+
+smq-popup .window {
+	overflow: auto;
+	border: 3px solid #4EB4FF;
+	width: 60%;
+    height: 70%;
+    margin-left: 20%;
+    margin-top: 7%;
+	padding:30px;  
+	overflow:hidden;
+  background: rgba(255,255,255,1);
+  border-radius: 4px;
+}
+
+smq-popup .close {
+  margin: 0 10px 0 0;
+  float: right;
+  color: rgba(200,200,200,1);
+  font-size: 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+      color: black;
+    opacity: 1;
+}
+
+smq-popup header.api-header h1 {
+  font-size: 1.5rem;
+}
+.show-popup:hover{
+	cursor:pointer;
+}
+smq-popup .background-mask{
+ position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+    z-index: -2;
+    display: block;	
+}
